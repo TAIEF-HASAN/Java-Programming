@@ -10,8 +10,9 @@ package com.mycompany.test_project;
  */
 public class TestPurpose {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        System.out.print("This is new Project");
+        System.out.println("Hello World \nThis is new Project \nFor Test");
+        System.out.println("\"Java Programming\" ");
+        System.out.print("1 \t 2");
         
     }
 }
