@@ -12,10 +12,20 @@ package com.mycompany.test_project;
 /* My Java Practice Projetc*/
 public class TestPurpose {
     public static void main(String[] args) {
-        // this file can do just system output
-        System.out.println("Hello World \nThis is new Project \nFor Test");
-        System.out.println("\"Java Programming\" ");
-        System.out.print("1 \t 2");
+        
+        boolean b = true;
+        char c = 'P';
+        short s = 32677;
+        int i = 126587;
+        float f = 10.2f;
+        double d = 10.2;
+
+        System.out.println("b ="+ b);
+        System.out.println("c = "+c);
+        System.out.println("s = "+s);
+        System.out.println("i = "+i);
+        System.out.println("f = "+f);
+        System.out.println("d = "+d);
         
     }
 }
