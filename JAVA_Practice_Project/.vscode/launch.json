@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AreaOfCircle",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.AreaOfCircle",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch AreaOfTriangle",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.AreaOfTriangle",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch Assignment4",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.Assignment4",
