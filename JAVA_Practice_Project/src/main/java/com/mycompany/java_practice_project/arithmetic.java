@@ -8,22 +8,22 @@ public class arithmetic {
         
         Scanner input = new Scanner(System.in);
 
-        int num1, num2, result;
-        System.out.print("Enter First Number: ");
-        num1 = input.nextInt();
-        System.out.print("Enter Secound Number: ");
-        num2 = input.nextInt();
-        
-        result = num1+num2;
-        System.out.println("Sum :"+result);
+        int x = 3;
+        int y = 2;
 
-        result = num1-num2;
-        System.out.println("Sub :"+result);
+        x+=y; // x = x + y;  x = 5
+        System.out.println("x: "+x);
 
-        double result1 = (double)num1/num2;
-        System.out.printf("Divided : %.2f\n",result1);
+        x-=y; // x = x - y; x = 3
+        System.out.println("x: "+x);
 
-        result = num1%num2;
-        System.out.println("Division :"+result);
+        x*=y; //x = x * y; x = 6
+        System.out.println("x: "+x);
+
+        x/=y; //x = x / y; x = 3
+        System.out.println("x: "+x);
+
+        x%=y; //x = x % y; x = 1
+        System.out.println("x: "+x);
     }
 }
