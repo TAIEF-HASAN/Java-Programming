@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CelciusToFarenheitCalcu",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.CelciusToFarenheitCalcu",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch AreaOfCircle",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.AreaOfCircle",
