@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Assignment4",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.Assignment4",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch arithmetic",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.arithmetic",
