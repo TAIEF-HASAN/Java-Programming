@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FarenheitToCelciusCalcu",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.FarenheitToCelciusCalcu",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch CelciusToFarenheitCalcu",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.CelciusToFarenheitCalcu",
