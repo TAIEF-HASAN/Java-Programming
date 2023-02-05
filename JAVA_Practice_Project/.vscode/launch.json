@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IncrementAndDecrement",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.IncrementAndDecrement",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch UnaryOparator",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.UnaryOparator",
