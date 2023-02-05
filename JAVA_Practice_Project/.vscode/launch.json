@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch EvenAndOdd",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.EvenAndOdd",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch Assignment5",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.Assignment5",
