@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MathEx",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.MathEx",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch BitwiseOperator",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.BitwiseOperator",
