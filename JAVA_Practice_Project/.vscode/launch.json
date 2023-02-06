@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch WhileAndDoWhile",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.WhileAndDoWhile",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch DoWhileLoop",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.DoWhileLoop",
