@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch UsingAndCapitalSmall",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.UsingAndCapitalSmall",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch UsingOrVowelConsonant",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.UsingOrVowelConsonant",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch CheckingVowelConsonent",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.CheckingVowelConsonent",
