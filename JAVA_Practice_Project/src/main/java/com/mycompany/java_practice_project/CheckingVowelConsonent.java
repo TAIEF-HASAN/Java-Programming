@@ -6,24 +6,24 @@ public class CheckingVowelConsonent {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
-        String letter;
+        char letter;
 
         System.out.print("Enter Letter and check if vowel or consonant:");
-        letter = input.next();
+        letter = input.next().charAt(0);
 
-        if(letter=="a"){
+        if(letter=='a'){
             System.out.println("vowel");
         }
-        else if(letter=="e"){
+        else if(letter=='e'){
             System.out.println("vowel");
         }
-        else if(letter=="i"){
+        else if(letter=='i'){
             System.out.println("vowel");
         }
-        else if(letter=="o"){
+        else if(letter=='o'){
             System.out.println("vowel");
         }
-        else if(letter=="u"){
+        else if(letter=='u'){
             System.out.println("vowel");
         }
         else{
