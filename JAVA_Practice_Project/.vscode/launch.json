@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch WhileLoopExp",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.WhileLoopExp",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch ForLoopExp",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.ForLoopExp",
