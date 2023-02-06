@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Assignment9",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.Assignment9",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch SwichCase",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.SwichCase",
