@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BreakAndContinue",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.BreakAndContinue",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch Assignment10",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.Assignment10",
