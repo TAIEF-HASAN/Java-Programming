@@ -28,5 +28,8 @@ public class MathEx {
         double ceil = Math.ceil(8.7f);
         System.out.println(ceil);
 
+        double pi = Math.PI;
+        System.out.println(pi);
+
     }
 }
