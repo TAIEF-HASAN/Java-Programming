@@ -33,9 +33,6 @@ public class Assignment12 {
             }
 
         }
-
-        
-
         System.out.println(sum);
     }
 }
