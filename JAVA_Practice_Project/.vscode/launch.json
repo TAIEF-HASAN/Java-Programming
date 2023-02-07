@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MToNPrimeNumber",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.MToNPrimeNumber",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch PrimeNumber",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.PrimeNumber",
