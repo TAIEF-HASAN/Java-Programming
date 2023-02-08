@@ -9,7 +9,7 @@ public class Assignment12 {
         Scanner input = new Scanner(System.in);
         int m,n, sum = 0;
 
-        System.out.print("Enter the number between m-n for result of odd number:");
+        System.out.print("Enter the number between m-n for Sum of odd number:");
         m = input.nextInt();
         n = input.nextInt();
 
