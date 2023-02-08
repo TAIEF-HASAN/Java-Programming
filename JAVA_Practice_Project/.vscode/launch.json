@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PalindromeNum",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.PalindromeNum",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseOfDigit",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.ReverseOfDigit",
