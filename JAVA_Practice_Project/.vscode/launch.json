@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArmstrongNum",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.ArmstrongNum",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch Assignment14",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.Assignment14",
