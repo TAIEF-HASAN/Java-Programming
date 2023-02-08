@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.Fibonacci",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch MToNPrimeNumber",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.MToNPrimeNumber",
