@@ -5,27 +5,40 @@ import java.util.Scanner;
 public class Assignment16 {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
-        String name = "Taief", nName;
-        int pass = 123456, nPass;
-
-        System.out.println("Enter Your Username:");
-        nName = input.nextLine();
-
-        System.out.println("Enter Your Password: ");
-        nPass = input.nextInt();
-
-        if(nName!=name && nPass!=pass){
-
-            System.out.println("username/password is incorrect. Please try again");
-            System.out.println("welcome to the system");
-        }
-        else{
-            System.out.println("login Successful");
-        }
         
+        String Username;
+        String Password;
+
+        Password = "123";
+        Username = "Taief";
+
+
+        while(true){
+
+            Scanner input1 = new Scanner(System.in);
+            System.out.println("Enter Username : ");
+            String username = input1.next();
+    
+            Scanner input2 = new Scanner(System.in);
+            System.out.println("Enter Password : ");
+            String password = input2.next();
+    
+            if (username.equals(Username) && password.equals(Password)) {
+    
+                System.out.println("Access Granted! Welcome!");
+                break;
+            }
+    
+            else if (username.equals(Username)) {
+                System.out.println("Invalid Password!");
+            } else if (password.equals(Password)) {
+                System.out.println("Invalid Username!");
+            } else {
+                System.out.println("Invalid Username & Password!");
+            }
+        }
+
        
-
-        
     }
+        
 }
