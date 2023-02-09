@@ -16,13 +16,5 @@ public class PatternExmp1 {
             System.out.println();
 
         }
-
-        for(int row=n-1; row>=1; row--){
-            for(int colm=1; colm<=row; colm++){
-                System.out.printf(" %c",row+64);
-            }
-            System.out.println();
-
-        }
     }
 }
