@@ -10,6 +10,7 @@ public class PatternExmp2 {
         int n = input.nextInt();
 
         for(int row=n; row>=1; row--){
+            //for(int colm=1; colm<=row; colm++)
             for(int colm=row; colm>=1; colm--){
                 System.out.print(" "+colm);
             }
