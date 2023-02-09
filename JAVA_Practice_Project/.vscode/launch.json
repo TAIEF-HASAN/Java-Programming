@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FormetSpecifier",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.FormetSpecifier",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatternExmp3Alfabatic",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.PatternExmp3Alfabatic",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch PatternExmp3Binary2",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.PatternExmp3Binary2",
