@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PatternExmp3Binary",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.PatternExmp3Binary",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch PatternExmp2",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.PatternExmp2",
