@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PatternSpace",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.PatternSpace",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch StarPatternAscToDsc",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.StarPatternAscToDsc",
