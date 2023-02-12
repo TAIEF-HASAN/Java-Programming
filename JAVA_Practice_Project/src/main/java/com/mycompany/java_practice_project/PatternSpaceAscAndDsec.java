@@ -2,16 +2,15 @@ package com.mycompany.java_practice_project;
 
 import java.util.Scanner;
 
-public class PatternSpaceDesc {
+public class PatternSpaceAscAndDsec {
     public static void main(String[] args) {
-
-
+        
         Scanner input = new Scanner(System.in);
         int n;
         System.out.print("Enter the patttern number:");
         n = input.nextInt();
 
-        for(int row=n; row>=1; row--){
+        for(int row=1; row<=n; row++){
 
             //printing Space
             for(int col=1; col<=n-row;col++){
@@ -20,7 +19,21 @@ public class PatternSpaceDesc {
             }
             //Printing Number 
             for(int col=1; col<=row;col++){
-                System.out.print(col%2);
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        for(int row=n-1; row>=1; row--){
+
+            //printing Space
+            for(int col=1; col<=n-row;col++){
+                System.out.print(" ");
+
+            }
+            //Printing Number 
+            for(int col=1; col<=row;col++){
+                System.out.print("*");
             }
             System.out.println();
         }

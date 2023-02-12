@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PatternSpaceAscAndDsec",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.PatternSpaceAscAndDsec",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch PatternSpaceDesc",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.PatternSpaceDesc",
