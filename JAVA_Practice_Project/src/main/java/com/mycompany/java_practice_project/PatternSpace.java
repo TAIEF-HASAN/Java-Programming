@@ -19,7 +19,7 @@ public class PatternSpace {
             }
             //Printing Number 
             for(int col=1; col<=row;col++){
-                System.out.printf("%c",row+64);
+                System.out.print("*");
             }
             System.out.println();
         }
