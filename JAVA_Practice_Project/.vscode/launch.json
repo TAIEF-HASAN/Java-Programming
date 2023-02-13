@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PatternTringleAscAndDesc",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.PatternTringleAscAndDesc",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch PatternTringle",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.PatternTringle",

@@ -14,13 +14,13 @@ public class PatternSpaceAscAndDsec {
 
             //printing Space
             for(int col=1; col<=n-row;col++){
-                System.out.print("  ");
+                System.out.print(" ");
 
             }
             //Printing Number 
             for(int col=1; col<=row;col++){
-                System.out.print(" "+row);
-                //System.out.println("*");
+                //System.out.print(" "+row);
+                System.out.print("* ");
                 //System.out.println(" "+col);
                 //System.out.println(" "+col%2);
                 //System.out.println(" "+row%2);
@@ -32,13 +32,13 @@ public class PatternSpaceAscAndDsec {
 
             //printing Space
             for(int col=1; col<=n-row;col++){
-                System.out.print("  ");
+                System.out.print(" ");
 
             }
             //Printing Number 
             for(int col=1; col<=row;col++){
-                System.out.print(" "+row);
-                //System.out.println("*");
+                //System.out.print(" "+row);
+                System.out.print("* ");
                 //System.out.println(" "+col);
                 //System.out.println(" "+col%2);
                 //System.out.println(" "+row%2);
