@@ -15,8 +15,6 @@ public class PatternTringleStar {
                 System.out.print(" ");
             }
 
-
-
             for(int col=1; col<=row; col++){
 
                 if(row==1||row==n||col==1||col==row)
