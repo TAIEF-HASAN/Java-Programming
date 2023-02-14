@@ -2,29 +2,31 @@ package com.mycompany.java_practice_project;
 
 import java.util.Scanner;
 
-public class PatternRectangle {
+public class PatternTringleStar {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
         int n;
-        System.out.println("Enter Pattern Number:");
+        System.out.print("Enter the Pattern number:");
         n = input.nextInt();
+        for(int row=1; row<=n; row++){
 
-        for(int row=1; row<=n;row++){
-            for(int col=1; col<=n; col++){
+            for(int col=1;col<=n-row;col++){
+                System.out.print(" ");
+            }
 
-                if(row==1||row==n||col==1||col==n){
+
+
+            for(int col=1; col<=row; col++){
+
+                if(row==1||row==n||col==1||col==row)
                     System.out.print("* ");
-                }
                 else{
                     System.out.print("  ");
                 }
-                
             }
 
             System.out.println();
-            
-            
         }
     }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PatternTringleStar",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.PatternTringleStar",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch PatternRectangle",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.PatternRectangle",
