@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PatternFloydTringle",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.PatternFloydTringle",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatternCrossShape2",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.PatternCrossShape2",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatternCross",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.PatternCross",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch PatternTringleStar",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.PatternTringleStar",
