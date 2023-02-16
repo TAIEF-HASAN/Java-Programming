@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PatternDimondShape",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.PatternDimondShape",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch PatternTringleReverse2",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.PatternTringleReverse2",
