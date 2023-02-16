@@ -14,7 +14,7 @@ public class PatternFloydTringle {
 
             //Printing Number 
             for(int col=1; col<=row;col++){
-                System.out.print(" "+(++count));
+                System.out.printf(" %d",(++count));
                 
             }
             System.out.println();
