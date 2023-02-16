@@ -6,7 +6,7 @@ public class PatternFloydTringle {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        int n;
+        int n, count = 0;
         System.out.print("Enter the patttern number:");
         n = input.nextInt();
 
@@ -14,7 +14,7 @@ public class PatternFloydTringle {
 
             //Printing Number 
             for(int col=1; col<=row;col++){
-                System.out.print(" "+col);
+                System.out.print(" "+(++count));
                 
             }
             System.out.println();
