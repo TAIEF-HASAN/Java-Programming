@@ -6,7 +6,7 @@ public class Array2DInput {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        int[][] A = new int[2][3];
+        int[][] A = new int[3][4];
         int[][] B = new int[2][3];
 
         System.out.println("Enter the Value Of A:");
