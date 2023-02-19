@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArrayForEach",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.ArrayJava.ArrayForEach",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch ArrayMaxAndMin",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.ArrayJava.ArrayMaxAndMin",
