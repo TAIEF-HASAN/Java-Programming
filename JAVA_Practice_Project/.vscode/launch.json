@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Array2D",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.ArrayJava.Array2D",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch Assignment18",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.ArrayJava.Assignment18",
