@@ -42,6 +42,16 @@ public class Array2DInput {
             }
             System.out.println();
         }
+        //int sum=0;
+        System.out.println("Sum of A and B");
+        for(int row=0; row<2; row++){
+            for (int col = 0; col < 3; col++) {
+                System.out.print("\t"+(B[row][col]+A[row][col]));
+            }
+            System.out.println();
+        }
+
+
 
         
     }
