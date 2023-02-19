@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArrayMatrixSum",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.ArrayJava.ArrayMatrixSum",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch Array2DInput",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.ArrayJava.Array2DInput",
