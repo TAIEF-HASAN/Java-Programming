@@ -19,11 +19,11 @@ public class AscAndDesc {
 
         System.out.println(number);
 
-        //sorted arraylist ascending order
+        //sorted arraylist in ascending order
         Collections.sort(number);
         System.out.println(number);
 
-        //sorted arraylist descending order
+        //sorted arraylist in descending order
         Collections.sort(number, Collections.reverseOrder());
         System.out.println(number);
     }
