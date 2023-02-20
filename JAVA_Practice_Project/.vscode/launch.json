@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StringExmp",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.String.StringExmp",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch AscAndDesc",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.ArrayList.AscAndDesc",
