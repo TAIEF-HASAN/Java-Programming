@@ -20,7 +20,7 @@ public class ArrayList {
         
         //Three ways of printing arraylist
 
-        System.out.println(number);
+        //System.out.println(number);
 
         /*
         for (int x : number) {
@@ -39,7 +39,7 @@ public class ArrayList {
 
         //removing elements of array
         number.remove(0);
-        System.out.print(" "+number);
+        System.out.print(number+" ");
         System.out.println();
         System.out.println("Array Size = "+number.size());
 
