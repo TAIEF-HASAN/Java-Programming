@@ -3,7 +3,7 @@ package com.mycompany.java_practice_project.String;
 public class StringExmp {
     public static void main(String[] args) {
         
-        String n = "My Country Bangladesh";
+        String n = "My Country BangladeSh";
         String m = new String("My Country Bangladesh");
 
         int x = n.length();
@@ -36,6 +36,7 @@ public class StringExmp {
         }
 
         //if the condition is true/False isEmpty method returns boolean value
+        
         if(n.isEmpty()){
             System.out.println("Empty");
 
@@ -44,6 +45,13 @@ public class StringExmp {
             System.out.println("not EMPTY");
         }
 
+        if(n.equalsIgnoreCase(m)){
+            System.out.println("equals");
+
+        }
+        else{
+            System.out.println("not equals");
+        }
 
     }
 }
