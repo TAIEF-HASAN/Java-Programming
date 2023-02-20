@@ -36,7 +36,6 @@ public class StringExmp {
         }
 
         //if the condition is true/False isEmpty method returns boolean value
-        
         if(n.isEmpty()){
             System.out.println("Empty");
 
@@ -45,6 +44,7 @@ public class StringExmp {
             System.out.println("not EMPTY");
         }
 
+        //equalsIgnoreCse method is case not sensitive
         if(n.equalsIgnoreCase(m)){
             System.out.println("equals");
 
