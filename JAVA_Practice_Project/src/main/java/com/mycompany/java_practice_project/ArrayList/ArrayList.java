@@ -37,8 +37,9 @@ public class ArrayList {
         System.out.println();
         System.out.println("Array Size = "+number.size());
 
-        //removing elements of array
-        number.remove(0);
+        //removing elements from array in many way
+        /*
+         * number.remove(0);
         System.out.print(number+" ");
         System.out.println();
         System.out.println("Array Size = "+number.size());
@@ -46,6 +47,33 @@ public class ArrayList {
         number.removeAll(number);
         System.out.println(number);
         System.out.println("Array Size = "+number.size());
+         */
+
+        /*
+         * number.clear();
+         System.out.println(number);
+         */
+
+        //return true or false base on value of arraylist
+        boolean c =  number.contains(30);
+        System.out.println(c);
+
+        //check if the arraylist is empty or not
+        boolean empty =  number.isEmpty();
+        System.out.println("Is empty: "+empty);
+
+        //return  a Index of value 
+        System.out.println("the Index of value is: "+number.get(4));
+        
+        //set method do replace the existence index of value
+        System.out.println("The new  value is:"+number.set(1, 70));    
+
+        //print the indexOf value
+        System.out.println("The value of index is: "+number.indexOf(50));    
+
+         
+         
+        
 
         
     }
