@@ -21,12 +21,14 @@ public class ArrayListExmp2 {
         number2.add(4);
         number2.add(5);
 
+        //addAll method is use for add one arraylist to another
         number3.addAll(number);
 
         System.out.println("The element of number: "+number);
         System.out.println("The element of number2: "+number2);
         System.out.println("The element of number3: "+number3);
 
+        //check the between two arraylist is equal or not
         boolean equal = number.equals(number2);
         System.out.println("number == number2:"+equal); 
 
