@@ -30,6 +30,13 @@ public class StringExmp2 {
         Boolean eW = m.endsWith("h");
         System.out.println(eW);
 
+        String[] letter = {"A", "B", "C", "D", "E", "F", "G", "H"};
+        
+        
+        for (String x : letter) {
+            System.out.print(x+" ");
+        }
+
 
     }
 }
