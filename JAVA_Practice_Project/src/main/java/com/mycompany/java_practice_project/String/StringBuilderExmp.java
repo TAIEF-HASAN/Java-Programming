@@ -7,7 +7,7 @@ public class StringBuilderExmp {
         StringBuilder s = new StringBuilder("My country");
         System.out.println(s);
 
-        //append method do add a String with a Sting Bulider
+        //append method do add a String with a Sting Builder
         s.append(" is Bangladesh ");
         System.out.println(s);
         s.append(570);
