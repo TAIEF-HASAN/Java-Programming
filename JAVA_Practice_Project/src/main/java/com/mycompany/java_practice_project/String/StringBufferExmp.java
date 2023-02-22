@@ -4,7 +4,8 @@ public class StringBufferExmp {
     public static void main(String[] args) {
         
         //declaration of String Buffer
-        StringBuffer s = new StringBuffer("My Country");
+        //String s2 = "My country";
+        StringBuffer s = new StringBuffer("My country");
 
         System.out.println(s);
 
