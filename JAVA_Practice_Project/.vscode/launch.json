@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StringBufferExmp",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.String.StringBufferExmp",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch StringExmp4",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.String.StringExmp4",
