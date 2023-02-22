@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PatternTringleStar",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.BignnerJava.PatternTringleStar",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.BignnerJava.Fibonacci",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch BitwiseOperator",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.BignnerJava.BitwiseOperator",
