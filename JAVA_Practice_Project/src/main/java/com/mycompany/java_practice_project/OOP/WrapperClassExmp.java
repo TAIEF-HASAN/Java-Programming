@@ -7,6 +7,7 @@ public class WrapperClassExmp {
          * Wrapper Class:
          * Auto boxing = Converting primitive to object
          * Unboxing = Converting object to primitive
+         * String is not a Primitive data
          */
         
         //converting primitive to Object of wrapper class
@@ -32,5 +33,7 @@ public class WrapperClassExmp {
         Boolean m = true;
         boolean n = m; //.booleanValue();
         System.out.println(n);
+
+
     }
 }
