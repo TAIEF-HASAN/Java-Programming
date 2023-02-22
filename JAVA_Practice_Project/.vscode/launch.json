@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NumberConversion2",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.BignnerJava.NumberConversion2",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch NumberConversion",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.BignnerJava.NumberConversion",
