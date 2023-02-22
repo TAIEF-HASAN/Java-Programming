@@ -7,7 +7,7 @@ public class PatternSpace {
         
         Scanner input = new Scanner(System.in);
         int n;
-        System.out.print("Enter the patttern number:");
+        System.out.print("Enter the pattern number:");
         n = input.nextInt();
 
         for(int row=1; row<=n; row++){
