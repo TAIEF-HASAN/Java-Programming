@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch WrapperClassExmp",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.OOP.WrapperClassExmp",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch StringBuilderExmp",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.String.StringBuilderExmp",
