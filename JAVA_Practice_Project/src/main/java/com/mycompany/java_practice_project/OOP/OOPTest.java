@@ -4,14 +4,14 @@ public class OOPTest {
     public static void main(String[] args) {
         
         TeacherInfo teacher; //object declare
-        teacher = new TeacherInfo(); //create object
+        teacher = new TeacherInfo("Rahim", "Male", 18000000); //create object
 
         //we can create and declare together like this
-        TeacherInfo teacher1 = new TeacherInfo();
+        TeacherInfo teacher1 = new TeacherInfo("Lilly", "Female", 17000000);
 
-        //we can setvalue of class by creating a method
-        teacher.setDisplay("Rahim", "Male", 18000000);
-        teacher1.setDisplay("Lilly", "Female", 17000000);
+        //we can setValue of class by creating a method
+        //teacher.setDisplay("Rahim", "Male", 18000000);
+        //teacher1.setDisplay("Lilly", "Female", 17000000);
         
         /*
          * teacher.name = "Rahim";

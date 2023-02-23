@@ -5,12 +5,19 @@ public class TeacherInfo {
     String name, gender;
     int phone;
 
-
-    void setDisplay(String n, String g, int p){
+    //declaration of constructor
+    TeacherInfo(String n, String g, int p){
         name = n;
         gender = g;
         phone = p;
     }
+
+
+    /*void setDisplay(String n, String g, int p){
+        name = n;
+        gender = g;
+        phone = p;
+    }*/
 
     /*
      * methods have many more advantage
