@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DateExmp",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.BignnerJava.DateExmp",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch Date",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.BignnerJava.Date",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch NumberConversion2",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.BignnerJava.NumberConversion2",
