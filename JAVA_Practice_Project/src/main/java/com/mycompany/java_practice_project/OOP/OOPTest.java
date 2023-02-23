@@ -9,13 +9,19 @@ public class OOPTest {
         //we can create and declare together like this
         TeacherInfo teacher1 = new TeacherInfo();
 
-        teacher.name = "Rahim";
-        teacher.gender = "male";
-        teacher.phone = 18000000;
-
+        //we can setvalue of class by creating a method
+        teacher.setDisplay("Rahim", "Male", 18000000);
+        teacher1.setDisplay("Lilly", "Female", 17000000);
+        
+        /*
+         * teacher.name = "Rahim";
+         * teacher.gender = "male";
+         * teacher.phone = 18000000;
+         
+        
         teacher1.name = "Sely";
         teacher1.gender = "Female";
-        teacher1.phone = 17000000;
+        teacher1.phone = 17000000;*/
 
         
         teacher.displayInfo();
