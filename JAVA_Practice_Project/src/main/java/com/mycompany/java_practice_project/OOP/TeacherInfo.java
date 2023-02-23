@@ -5,7 +5,12 @@ public class TeacherInfo {
     String name, gender;
     int phone;
 
-    //declaration of constructor
+    //declaration of default constructor
+    TeacherInfo(){
+        System.out.println("there is no value");
+    }
+
+    //declaration of primitive constructor
     TeacherInfo(String n, String g, int p){
         name = n;
         gender = g;
