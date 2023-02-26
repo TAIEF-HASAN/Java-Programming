@@ -21,8 +21,7 @@ public class Box {
     }
 
     void displayVol(){
-        System.out.println("Height "+height);
-        System.out.println("Width "+width);
-        System.out.println("depth "+depth);
+        double vol = height * width * depth;
+        System.out.println("Height "+vol);
     }
 }
