@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StaticBlockExmp",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.OOP.StaticBlock.StaticBlockExmp",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch Test",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.OOP.StaticMethod.Test",
