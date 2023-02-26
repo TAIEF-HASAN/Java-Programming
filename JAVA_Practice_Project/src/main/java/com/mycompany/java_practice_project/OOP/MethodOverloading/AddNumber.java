@@ -2,7 +2,7 @@ package com.mycompany.java_practice_project.OOP.MethodOverloading;
 
 public class AddNumber {
 
-    //Method overloading is called same method call multiple time with different parameter 
+    //Method overloading is called same method call multiple time with different parameter or else is called polymorphism
     void add(int a, int b){
         System.out.println("Total is "+(a+b));
     }
