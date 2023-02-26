@@ -14,10 +14,11 @@ public class Box {
 
     double height, width, depth;
 
-    Box(double h, double w, double d){
-        height = h;
-        width = w;
-        depth = d;
+    //if we use same variable name as a local variable, we have to must use "this" keyword for the class variable 
+    Box(double height, double width, double depth){
+        this.height = height;
+        this.width = width;
+        this.depth = depth;
     }
 
     void displayVol(){
