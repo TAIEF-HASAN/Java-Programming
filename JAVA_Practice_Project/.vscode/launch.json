@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Test",
             "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.OOP.StaticVariable.Test",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.OOP.StaticKeyword.Test",
             "projectName": "JAVA_Practice_Project"
         },
