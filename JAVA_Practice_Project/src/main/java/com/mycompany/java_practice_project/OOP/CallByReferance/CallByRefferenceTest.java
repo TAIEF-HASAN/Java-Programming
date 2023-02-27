@@ -3,7 +3,7 @@ package com.mycompany.java_practice_project.OOP.CallByReferance;
 public class CallByRefferenceTest {
     public static void main(String[] args) {
         
-        CallByReferanceExmp r1 = new CallByReferanceExmp();
+        CallByReferenceExmp r1 = new CallByReferenceExmp();
         r1.name = "Kabil"; 
         System.out.println("Before calling: "+r1.name);
 
