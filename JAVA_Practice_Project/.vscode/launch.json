@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CallByValueTest",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.OOP.CallByValue.CallByValueTest",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch ForLoopExp",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.BignnerJava.ForLoopExp",
