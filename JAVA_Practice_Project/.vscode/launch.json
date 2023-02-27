@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RecursionMain",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.OOP.RecursionExample.RecursionMain",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch RecursionTest",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.Recursion.RecursionTest",
