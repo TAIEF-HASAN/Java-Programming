@@ -4,7 +4,7 @@ public class CallByValueTest {
     public static void main(String[] args) {
         
         CallByValueExmp ob = new CallByValueExmp();
-        int x = 10;
+        int x = 10; //primitive value --> primitive value store in stack memory
         System.out.println("x before call: "+x);
 
         ob.change(x);
