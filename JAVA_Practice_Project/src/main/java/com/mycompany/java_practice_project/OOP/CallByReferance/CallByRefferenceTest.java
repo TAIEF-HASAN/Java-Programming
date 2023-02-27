@@ -9,9 +9,9 @@ public class CallByRefferenceTest {
 
 
        /*
-        *if we call a method by passing a reference type of data (object, String) then it is known as call by reference.
+        *if we call a method by passing a reference type of data (object, String) then it is known as call-by-reference.
         */
-        r1.change(r1); //In call by reference original value get change.
+        r1.change(r1); //In call-by-reference original value get change when the formal value has change in a Class method
         System.out.println("After Calling: "+r1.name);
     }
 }

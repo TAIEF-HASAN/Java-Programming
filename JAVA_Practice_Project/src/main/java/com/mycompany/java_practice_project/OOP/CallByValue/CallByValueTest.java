@@ -10,6 +10,6 @@ public class CallByValueTest {
 
         //When a method call by primitive data is called call by value
         ob.change(x);//here x is the actual parameter
-        System.out.println("x after call: "+x);
+        System.out.println("x after call: "+x);//Actual value has not changes if the formal value changes in a Class methods of primitive data type 
     }
 }
