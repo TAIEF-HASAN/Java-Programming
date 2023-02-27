@@ -1,7 +1,7 @@
 package com.mycompany.java_practice_project.OOP.RecursionExample;
 
 public class RecursionMain {
-        public static void main(String[] args) {
+        /*public static void main(String[] args) {
           int result = sum(10);
           System.out.println(result);
         }
@@ -11,6 +11,18 @@ public class RecursionMain {
           } else {
             return 0;
           }
-          
+
+        }*/
+
+        public static void main(String[] args) {
+          int result = sum(5, 10);
+          System.out.println(result);
+        }
+        public static int sum(int start, int end) {
+          if (end > start) {
+            return end + sum(start, end - 1);
+          } else {
+            return end;
+          }
         }
 }
