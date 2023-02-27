@@ -7,7 +7,7 @@ public class CallByValueTest {
         int x = 10; //primitive value --> primitive value store in stack memory
         System.out.println("x before call: "+x);
 
-        ob.change(x);
+        ob.change(x);//here x is the actual parameter
         System.out.println("x after call: "+x);
     }
 }
