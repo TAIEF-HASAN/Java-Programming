@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.OOP.varargs.Test",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Launch CallByRefferenceTest",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.OOP.CallByReferance.CallByRefferenceTest",
