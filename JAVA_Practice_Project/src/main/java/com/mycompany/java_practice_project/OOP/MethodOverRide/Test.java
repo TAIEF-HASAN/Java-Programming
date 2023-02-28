@@ -9,5 +9,11 @@ public class Test {
         t.age = 27;
         t.qualification = "BSc in CSE";
         t.display();
+
+        Person p = new Person();
+        p.name = "Tania";
+        p.age = 27;
+        p.display();
+
     }
 }
