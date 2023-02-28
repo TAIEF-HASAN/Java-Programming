@@ -12,7 +12,7 @@ public class FormetSpecifier {
 
 
         System.out.printf("Boolean b = %b\n", b);
-        System.out.printf("Charecter c = %c\n",c);
+        //System.out.printf("Character c = %c\n",c);
         System.out.printf("Short s = %d\n",s);
         System.out.printf("Integer d = %d\n",i);
         System.out.printf("Float f = %.1f\n",f);
