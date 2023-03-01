@@ -14,6 +14,7 @@ public class Teacher extends Person {
      */
 
     void display(){
+        super.display();
         System.out.println("Name: "+name);
         System.out.println("Age: "+age);
         System.out.println("Qualification: "+qualification);
