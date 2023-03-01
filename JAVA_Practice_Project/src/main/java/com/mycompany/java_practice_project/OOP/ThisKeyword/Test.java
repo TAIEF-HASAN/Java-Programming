@@ -7,6 +7,6 @@ public class Test {
         p.display();
 
         Person p1 = new Person("Rina", 25, "Black");
-        p.display();
+        p1.display();
     }
 }
