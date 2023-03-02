@@ -3,7 +3,7 @@ How Interface is similar to a class
 2.it has same file extensions as class (.java)
 
 How Interface is different form a class
-1.you can not instantiate(object) an interface.\n
+1.you can not instantiate(object) an interface.
 2.Interface doesn't contain constructor.
 3.All the method interface are abstract.
 4.Ann interface can not have instance variables.
@@ -12,10 +12,10 @@ How Interface is different form a class
 Interface vs Abstract Class
 
 |   Interface   	| Abstract   	|
-|-------------------|---	|
-|   	            |   	|
-|   	            |   	|
-|   	            |   	|
+|-------------------|---------------|
+|   	            |   	        |
+|   	            |   	        |
+|   	            |   	        |
 
 Interface:
 1. Can have only abstract method
