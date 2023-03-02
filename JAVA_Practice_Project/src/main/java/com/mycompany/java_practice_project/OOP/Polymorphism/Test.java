@@ -5,7 +5,9 @@ public class Test {
     public static void main(String[] args) {
 
         /*
-         * Polymorphism
+         * There are two types of Polymorphism
+         * 1. Compile time/static polymorphism --> Method overload
+         * 2. Runtime/dynamic Polymorphism --> Method override
          */
         
         Teacher t = new Teacher();
