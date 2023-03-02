@@ -7,3 +7,6 @@ public abstract class MobileUser {
         System.out.println("Hello ");
     }
 }
+
+
+
