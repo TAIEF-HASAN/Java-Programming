@@ -7,6 +7,6 @@ public class TypesOFInheritance {
      * 1.Single Inheritance. Example: B-->A (B Extends A)
      * 2.Multilevel Inheritance. Example: C--> B--> A
      * 3.Hierarchical Inheritance. Example: B--> A, C--> A, D-->A 
-     * 4.Multiple Inheritance. Example: B--> A, C-->A, D-->B,C
+     * 4.Multiple Inheritance. Example: B--> A, C-->A, D-->B,C (Ambiguity marks here, error)
      */
 }
