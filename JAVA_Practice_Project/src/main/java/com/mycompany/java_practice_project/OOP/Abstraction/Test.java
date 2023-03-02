@@ -6,6 +6,9 @@ public class Test {
         /*
          * What is Abstraction?
          * Abstraction is the process of hiding the implementation details and showing only the functionality to the user.
+         * The two way of abstraction in java
+         * 1.Abstract class (0 to 100%)
+         * 2.Interface (Achieve 100% abstraction )
          */
 
         
