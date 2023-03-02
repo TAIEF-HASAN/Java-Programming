@@ -11,9 +11,10 @@ public class Test {
         s[1] = new Rectangle(10, 30);
         
         s[2] = new Triangle(10, 30);
-        System.out.println(s[0].area()); 
-        System.out.println(s[1].area());
-        System.out.println(s[2].area());
+
+        for (int i = 0; i < s.length; i++) {
+            System.out.println(s[i].area()); 
+        }
         
     }
 }
