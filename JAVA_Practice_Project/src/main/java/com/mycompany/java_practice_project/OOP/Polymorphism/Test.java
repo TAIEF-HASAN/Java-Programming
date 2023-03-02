@@ -6,7 +6,7 @@ public class Test {
 
         /*
          * There are two types of Polymorphism
-         * 1. Compile time/static polymorphism --> Method overload
+         * 1. Compile time/static polymorphism --> Method/constructor overload
          * 2. Runtime/dynamic Polymorphism --> Method override
          */
         
@@ -19,8 +19,9 @@ public class Test {
         Person p = new Person();
         p.display();
 
-        //Student st = new Person();
-        p = new Student();
+        //Student st = new Person(); --> sub class cannot create object of super class
+        //This is called Runtime polymorphism
+        p = new Student(); // super class can create a object of subclass
         p.display();
     }
 }
