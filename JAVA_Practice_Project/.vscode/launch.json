@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "C",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.AccessModifier.ModifierTw.C",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Lion",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.Package.Lion",
