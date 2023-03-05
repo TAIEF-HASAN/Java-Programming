@@ -2,9 +2,7 @@ Modifier is two Type <br>
 1.Access Modifier <br>
 2.non-Access Modifier <br>
 
-<b>Access Modifier is four type:<b>
-
-<br>
+<b>Access Modifier is four type:</b><br>
 1.Private --> It can access only from his own class <br> 
 2.public --> it can be access form any where even form one package form another package <br>
 3.protect --> it can also access from another package but need to inheritance <br>
