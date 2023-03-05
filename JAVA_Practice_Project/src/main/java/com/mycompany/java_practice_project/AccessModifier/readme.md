@@ -1,6 +1,5 @@
 Modifier is two Type
 1.Access Modifier 
-<<<<<<< HEAD
 2.non-Access Modifier <br>
 
 Access Modifier is four type: <br>
@@ -16,4 +15,4 @@ Access Modifier is four type:
 2.public --> it can be access form any where even form one package form another package
 3.protect --> it can also access from another package but need to inheritance 
 4.default --> It can can be only access form own package not a way from access to another package
->>>>>>> 02d4c7afb2a27e5c6442ac0bcc5f708bf238bc82
+
