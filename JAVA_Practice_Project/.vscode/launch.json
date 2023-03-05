@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lion",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.Package.Lion",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "Test",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.OOP.MultipleInharitence.Test",
