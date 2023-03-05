@@ -1,6 +1,6 @@
-Modifier is two Type
-1.Access Modifier 
-2.non-Access Modifier 
+Modifier is two Type <br>
+1.Access Modifier <br>
+2.non-Access Modifier <br>
 
 Access Modifier is four type: 
 1.Private --> It can access only from his own class 
