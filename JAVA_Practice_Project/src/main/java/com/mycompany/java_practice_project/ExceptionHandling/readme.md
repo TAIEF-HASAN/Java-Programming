@@ -10,6 +10,8 @@ statement 6; <br>
 statement 7; <br> 
 
 => If a exception rise in Statement three then the up next statement will not be working so that's why we need exception handling   <br>
+
+
 ![image](https://user-images.githubusercontent.com/101741122/223055699-97913df2-7a67-4f71-9b25-9d60aafacbea.png)
 
 
