@@ -15,7 +15,7 @@ public class ExceptionHandlingProblemSolving {
             y = n.nextInt();
 
             int result = x/y;
-            System.out.println("Result: "+result);
+            System.out.println("Result: "+x+"/"+y+" = "+result);
 
         } catch (Exception e) {
             // TODO: handle exception
