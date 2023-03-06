@@ -11,4 +11,4 @@ statement 7; <br>
 
 => If a exception rise in Statement three then the up next statement will not be working so that's why we need exception handling   <br>
 
-http://www.sitesbay.com/java/images/exception/exception.png
+exception.png
