@@ -11,4 +11,5 @@ statement 7; <br>
 
 => If a exception rise in Statement three then the up next statement will not be working so that's why we need exception handling   <br>
 
-![image](https://user-images.githubusercontent.com/101741122/223055382-fe93f2d0-6147-477e-bba9-3858d8314d26.png)
+![image](https://user-images.githubusercontent.com/101741122/223055533-7615eea1-6d0a-4e23-b3aa-a9bfb8aebaf6.png)
+
