@@ -27,6 +27,15 @@ public class ExceptionHandlingProblemSolving {
                 System.out.println("Please try again");
             }
         }
+
+        /*or we can use do w */
+        /*
+         * int count=1;
+            do {
+            count++;
+        }   while (count==1);
+         */
+        
         
         
     }
