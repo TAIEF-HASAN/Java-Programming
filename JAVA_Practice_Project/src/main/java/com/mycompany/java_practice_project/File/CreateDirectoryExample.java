@@ -30,5 +30,10 @@ public class CreateDirectoryExample {
             System.out.println("Exception "+e);
         }
         
+        if(nfile.exists()){
+            System.out.println("File exist");
+        }else{
+            System.out.println("file not exist");
+        }
     }
 }
