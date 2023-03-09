@@ -7,11 +7,11 @@ public class Test {
         
         LinkedList<Student> list = new LinkedList<Student>();
 
-        Student n1 = new Student("Tamim", "Twelve", 101);
-        Student n2 = new Student("saleh", "Twelve", 102);
-        Student n3 = new Student("Rahim", "Twelve", 103);
-        Student n4 = new Student("Karim", "Twelve", 104);
-        Student n5 = new Student("Harun", "Twelve", 105);
+        Student n1 = new Student("Tamim", 101);
+        Student n2 = new Student("saleh", 102);
+        Student n3 = new Student("Rahim", 103);
+        Student n4 = new Student("Karim", 104);
+        Student n5 = new Student("Harun", 105);
 
         list.add(n1);
         list.add(n2);
@@ -23,7 +23,7 @@ public class Test {
             //we can see value by printing object using toString
             //System.out.println(student);
             //Or we can call object value for printing
-            System.out.println(student.id+" "+student.name+" "+student.className);
+            System.out.println(student.id+" "+student.name+" "+Student.className);
         }
     }
 }
