@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CreateDirectoryExample",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.File.CreateDirectoryExample",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "HashSetExample",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.HashSet.HashSetExample",
