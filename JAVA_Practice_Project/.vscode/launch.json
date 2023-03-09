@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HashSetExample",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.HashSet.HashSetExample",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "HashMapExample",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.HashMap.HashMapExample",
