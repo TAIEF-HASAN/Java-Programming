@@ -15,9 +15,14 @@ public class HashSetExample {
         fruitsName.add("pineapple");
         fruitsName.add("bit");
 
-
-
-
         System.out.println(fruitsName);
+
+        fruitsName.remove("apple");
+        System.out.println(fruitsName);
+
+        fruitsName.clear();
+        System.out.println(fruitsName);
+
+        System.out.println(fruitsName.isEmpty());
     }
 }
