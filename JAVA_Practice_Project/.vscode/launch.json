@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.List.Test",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "LinkedListExample",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.List.LinkedListExample",
