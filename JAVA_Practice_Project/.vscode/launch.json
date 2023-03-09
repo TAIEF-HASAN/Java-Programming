@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CreateFileExample",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.File.CreateFileExample",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "CreateDirectoryExample",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.File.CreateDirectoryExample",
