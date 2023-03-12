@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReadFile",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.File.ReadFile",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "WriteFile",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.File.WriteFile",
