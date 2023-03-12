@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WriteFile",
+            "request": "launch",
+            "mainClass": "com.mycompany.java_practice_project.File.WriteFile",
+            "projectName": "JAVA_Practice_Project"
+        },
+        {
+            "type": "java",
             "name": "CreateFileExample",
             "request": "launch",
             "mainClass": "com.mycompany.java_practice_project.File.CreateFileExample",
