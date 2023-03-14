@@ -11,13 +11,9 @@ public class SolutionFour {
             String s1=sc.next();
             int x=sc.nextInt();
             //Complete this line
-                if(x<100){
-                    System.out.printf("%-15s%03d%n", s1, x);
-                }else{
-                    System.out.printf("%-15s%d\n",s1,x);
-                }
-           
-            
+                
+            System.out.printf("%-15s%03d%n", s1, x);
+               
         }
         System.out.println("================================");
 
