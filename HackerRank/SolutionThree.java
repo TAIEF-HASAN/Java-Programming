@@ -1,10 +1,10 @@
-package CMDR;
+package HackerRank;
 
 import java.util.Scanner;
 
-class Test{
-	
-	public static void main(String[]args){
+public class SolutionThree {
+    
+    public static void main(String[]args){
 		
 		Scanner scan = new Scanner(System.in);
         
@@ -21,5 +21,4 @@ class Test{
         //System.out.println("Double: " + d);
         System.out.println("Int: " + i);
 	}
-
 }
